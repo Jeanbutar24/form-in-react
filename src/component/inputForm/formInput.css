@@ -1,0 +1,18 @@
+label {
+  font-size: 15px;
+}
+input {
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+span {
+  font-size: 10px;
+  color: red;
+  padding: 10px;
+  display: none;
+}
+
+input:invalid ~ span {
+  display: block    ;
+}
